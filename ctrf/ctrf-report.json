@@ -1,8 +1,8 @@
 {
   "reportFormat": "CTRF",
   "specVersion": "0.0.0",
-  "reportId": "6b79010a-dfde-4ec6-a1d8-79b7e1c46da9",
-  "timestamp": "2025-10-09T08:56:41.701Z",
+  "reportId": "6c53c843-1a30-4978-b3e7-e34ce71a90b3",
+  "timestamp": "2025-10-09T12:46:10.288Z",
   "generatedBy": "playwright-ctrf-json-reporter",
   "results": {
     "tool": {
@@ -15,17 +15,17 @@
       "pending": 0,
       "skipped": 0,
       "other": 0,
-      "start": 1760000202057,
-      "stop": 1760000214934,
+      "start": 1760013970559,
+      "stop": 1760013987254,
       "suites": 0
     },
     "tests": [
       {
         "name": "login and navigate to Admin user management",
         "status": "passed",
-        "duration": 10035,
-        "start": 1760000203,
-        "stop": 1760000213,
+        "duration": 12038,
+        "start": 1760013973,
+        "stop": 1760013985,
         "rawStatus": "passed",
         "tags": [],
         "type": "e2e",

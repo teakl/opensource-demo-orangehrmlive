@@ -27,6 +27,7 @@ export default defineConfig({
   reporter: [
     ["list"], // You can combine multiple reporters
     ["playwright-ctrf-json-reporter", {}],
+    ["html", { outputFolder: "playwright-report" }],
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -35,8 +36,8 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on-first-retry",
-    actionTimeout: 30_000,
-    navigationTimeout: 30_000,
+    // actionTimeout: 30_000,
+    // navigationTimeout: 30_000,
   },
 
   /* Only run tests matching this pattern (optional) */
