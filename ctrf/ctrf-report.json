@@ -1,0 +1,46 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "reportId": "6b79010a-dfde-4ec6-a1d8-79b7e1c46da9",
+  "timestamp": "2025-10-09T08:56:41.701Z",
+  "generatedBy": "playwright-ctrf-json-reporter",
+  "results": {
+    "tool": {
+      "name": "playwright"
+    },
+    "summary": {
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1760000202057,
+      "stop": 1760000214934,
+      "suites": 0
+    },
+    "tests": [
+      {
+        "name": "login and navigate to Admin user management",
+        "status": "passed",
+        "duration": 10035,
+        "start": 1760000203,
+        "stop": 1760000213,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/nguyentran/Documents/Teak Ly/Code/AiAutoTest/tests/example.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > example.spec.ts",
+        "attachments": [],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      }
+    ]
+  }
+}
